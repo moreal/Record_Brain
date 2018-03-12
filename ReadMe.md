@@ -12,7 +12,7 @@ the reason is so simple. because I like it :)
 \<Category name> :: \<Sub-category name> - \<Detail description> :
 
 example
-- Algorithm :: BOJ - DP, 2415
+- Algorithm :: BOJ - BOJ2415
 - Git - Organizing Commands
 - RecordBrain - Edit ReadMe.md
 
@@ -59,7 +59,7 @@ Weekends are days for rest..
 
 ## Category
 There is **Naming rule**, People can easily understand the meaning of the folder  
-This categories can be changed anytime. 너무 많아서 이미 알고 있는 것들은 얼마 못 적을지도.. 모른다.
+This categories can be changed anytime. 너무 많아서 이미 알고 있는 것들은 얼마 못 적을지도.. 모른다. 패킷트레이서 같은 경우 폴더와 파일명에 날짜를 붙여 구분하자.
 
 - Git
 - Network
@@ -118,3 +118,5 @@ This categories can be changed anytime. 너무 많아서 이미 알고 있는 �
 그리고 게임 서버 공부하시는 분들은 Contact 걸어주시면 배우러 갑니다..  
 
 email : dev.moreal@gmail.com
+
+<del>만약 이름 이행 하지 않으면 **h4lo** JaeHoonYun와 다과실 감 ㅎ</del>
