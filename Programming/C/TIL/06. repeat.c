@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define N 1000;
+#define N 1000
+#define while(x) 
 
 int main(void) {
     int i = 0;
