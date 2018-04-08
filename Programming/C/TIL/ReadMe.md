@@ -11,8 +11,8 @@
 - struct
 - pointer
 - heap (malloc, calloc, realloc)
-- thread
 - string (<string.h>)
+- thread
 - socket
 
 ### DS
