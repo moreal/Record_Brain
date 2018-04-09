@@ -13,13 +13,15 @@
 #include <stdio.h>
 
 void* func(void* arg) {
-	printf("%d", *(int*)arg);
+	while(1)
+		printf("Thread %d\n", *(int*)arg);
 }
 
 int main(void) {
 	// pthread를 사용하기 위한 구조체이다
 	pthread_t p_thread[2];
 	int a = 1, b =2;
+	void* ret;
 	// pthread_create
 	// 4개의 인자를 받는다
 	// thread : 스레드 구조체 주소
@@ -28,6 +30,9 @@ int main(void) {
 	// arg : 넘겨줄 인자
 	pthread_create(&p_thread[0], NULL, func, (void*)&a);
 	pthread_create(&p_thread[1], NULL, func, (void*)&b);
+
+	pthread_join(p_thread[0], &ret);
+	pthread_join(p_thread[1], &ret);
 
 	return 0;
 }
